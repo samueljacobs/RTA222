@@ -1,0 +1,25 @@
+// January 1- Class 1 Introduction to Processing
+void setup () {
+  size(400, 400);
+  
+} 
+
+void draw () {
+// ellipse (x,y,width,height)
+
+fill(#B40F96);
+  ellipse(100, 100 ,75,75);
+  
+// mouseX & Y control the location, 75 75 control width and height
+
+  point(200, 200);
+background(#0F94B4);
+  
+  fill(103,22,99);
+  rect(30, 20, 55, 55);
+
+// notes 
+// the 0,0 point is the origin - top left hand corner
+// function syntax - functionName(parameters); 
+// EX - point(50,100); 
+}
